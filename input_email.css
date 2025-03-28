@@ -1,0 +1,29 @@
+.input_email_wrapper {
+  display: flex;
+}
+
+.user_email {
+  box-sizing: border-box;
+  width: 540px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 100px;
+  padding-left: 20px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .input_email_wrapper {
+    flex-flow: column;
+    align-items: center;
+    row-gap: 12px;
+  }
+
+  .user_email {
+    box-sizing: border-box;
+    padding: 10px 20px 10px;
+    width: 245px;
+    height: 40px;
+    border-radius: 30px;
+  }
+}

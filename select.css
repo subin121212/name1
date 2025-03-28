@@ -1,0 +1,9 @@
+.select_btn {
+  cursor: pointer;
+  width: 113px;
+  height: 40px;
+  background-color: #000;
+  color: #757575;
+  text-align: center;
+  border-radius: 4px;
+}
